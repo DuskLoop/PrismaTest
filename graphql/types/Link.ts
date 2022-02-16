@@ -69,7 +69,7 @@ export const LinksQuery = extendType({
               id: myCursor,
             },
             orderBy: {
-              index: "asc",
+              title: "asc",
             },
           });
           // return response
